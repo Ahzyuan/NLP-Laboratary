@@ -1,1 +1,6 @@
-Analyse/*/
+Analyse/COG/*
+Analyse/Confuse_Matrix/*
+Analyse/ROC/*
+!Analyse/COG/*.*
+!Analyse/Confuse_Matrix/*.*
+!Analyse/ROC/*.*
