@@ -7,6 +7,7 @@ from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer,Coun
 
 #nltk.download('stopwords')
 #nltk.download('punkt')
+#nltk.download('wordnet')
 
 def clean_text(text):
     text = re.sub(r'[^\w\s]', '', text)
