@@ -1,0 +1,122 @@
+{
+    "config_file": "E:\\AIL\\project\\NLP-Laboratary\\Config\\logistic_pattern.json",
+    "record_dir": "E:\\AIL\\project\\NLP-Laboratary/Results",
+    "dataset": "E:\\AIL\\project\\NLP-Laboratary\\Dataset/task1",
+    "ddp": 0,
+    "device": "cuda:0",
+    "num_workers": 0,
+    "vectorizer": "bow",
+    "model": "logistic",
+    "activate_func": "none",
+    "seed": 5248,
+    "train_plan": "8:2",
+    "epoch": 200,
+    "batch_size": 32,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "momentum": 0.9,
+    "loss_func": "bce",
+    "optimizer": "adam",
+    "task": "task1",
+    "input_dim": 6463,
+    "cls_list": [
+        "AddToPlaylist",
+        "BookRestaurant",
+        "GetWeather",
+        "PlayMusic",
+        "SearchScreeningEvent",
+        "SearchCreativeWork",
+        "RateBook"
+    ],
+    "dual_cls_list": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            1,
+            2
+        ],
+        [
+            1,
+            3
+        ],
+        [
+            1,
+            4
+        ],
+        [
+            1,
+            5
+        ],
+        [
+            1,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "local_rank": 0,
+    "save_dir": "E:\\AIL\\project\\NLP-Laboratary/Results\\task1-bow-logistic-lr(-4)-bce-adam",
+    "weight_save_path": "E:\\AIL\\project\\NLP-Laboratary/Results\\task1-bow-logistic-lr(-4)-bce-adam\\best.pth",
+    "task_train_log_path": "E:\\AIL\\project\\NLP-Laboratary/Results\\task1-bow-logistic-lr(-4)-bce-adam\\cls_5-6\\train_log.txt",
+    "best_weight_path": "E:\\AIL\\project\\NLP-Laboratary/Results\\task1-bow-logistic-lr(-4)-bce-adam\\best.pth"
+}

@@ -1,36 +1,57 @@
-import torch,argparse,os,json
-from time import localtime
-from model import TJ_model
-from helper_func import cal_acc
-from data_loader import TJ_dataloader
+import torch,os,json,sys,argparse
+import torch.nn as nn
+import torch.distributed as dist
+from utils import predict
+from asset import *
+from data_loader import universed_loader
 
-def test(weight_path):
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--config_dir', type=str, default=r'E:\AIL\project\TJ_Palm\Config')   
-    parser.add_argument('--dataset', type=str, default='TJ')   
-    config = parser.parse_args()       
-    with open(os.path.join(config.config_dir, 'hyp_{}.json'.format(config.dataset)), 'r') as f:
-        config.__dict__ = json.load(f)    
-    
-    test_log_dir=r'E:\AIL\project\TJ_Palm\Results'
-    if not os.path.exists(test_log_dir):
-        os.makedirs(test_log_dir)
+def init_model(config):
+    torch.backends.cudnn.benchmark = True
+    gpu_num = torch.cuda.device_count()
+    if gpu_num<2: # disable ddp
+        config.ddp=0
 
-    dataloader = TJ_dataloader(config) 
+    activate_type = config.activate_func.lower()
+    config.activate_func = activate_set[activate_type]()
 
-    model=TJ_model(config).to(config.device)
+    if config.ddp: # enable ddp
+        local_rank=int(os.environ['LOCAL_RANK'])
+        backend='nccl' if sys.platform=='linux' else 'gloo'
+        dist.init_process_group(backend,init_method='env://')
+        model = nn.parallel.DistributedDataParallel(model_set[config.model.lower()](config),
+                                                    device_ids=[local_rank],
+                                                    output_device=local_rank)
+        config.local_rank=local_rank
+    else:  
+        model = model_set[config.model.lower()](config)
+        if gpu_num == 1:
+            model.cuda()
+        config.local_rank=0
+
+    config.activate_func = activate_type
+
+    return model
+
+def test(config):    
+    vectorizer, _, test_data = preprocess_set[config.vectorizer](config)
+
+    dataloader = universed_loader(config, vectorizer, test_data=test_data)
+
+    model=init_model(config)
     model_dict = model.state_dict()
-    saved_dict = torch.load(weight_path, map_location=config.device) 
+    saved_dict = torch.load(config.best_weight_path, map_location=config.device) 
     model_dict.update(saved_dict)
     model.load_state_dict(model_dict)
 
-    test_acc=cal_acc(config,dataloader.test_loader,model)
-    struct_time=localtime()
-    test_res='{}\\{}\\{} {}:{}  Top 1_acc: {:.3f}  Top 5_acc: {:.3f}\n'.format(*struct_time[:5],*test_acc)
-    print(test_res)
-    with open(os.path.join(test_log_dir, 'model_performance.txt'),'a',encoding='utf-8') as perform_writer:
-        perform_writer.writelines(test_res)
+    predict(config, dataloader.test_loader, model)
 
-if __name__=='__main__':
-    best_weight=r'E:\AIL\project\TJ_Palm\Results\saved_model\best.pth'
-    test(best_weight)
+    if config.ddp:
+        dist.destroy_process_group()
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--config_file', type=str, default=f'{sys.path[0]}/Config/softmax_pattern.json')   
+    config = parser.parse_args()
+    with open(config.config_file, 'r') as f:
+        config.__dict__ = json.load(f) 
+    test(config)

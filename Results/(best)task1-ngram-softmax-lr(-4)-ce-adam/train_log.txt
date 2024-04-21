@@ -1,0 +1,1800 @@
+epoch: 1, avg_loss: 1.946, Top 1_acc: 0.185, Top 5_acc: 0.753
+Average 0.4 s/epoch | Spend: 0 h 0 mins 0.4s
+Best: epoch_1, loss_1.946, Top 1_acc: 0.185, Top 5_acc: 0.753
+----------------------------------------
+epoch: 2, avg_loss: 1.946, Top 1_acc: 0.201, Top 5_acc: 0.760
+Average 0.3 s/epoch | Spend: 0 h 0 mins 0.5s
+Best: epoch_2, loss_1.946, Top 1_acc: 0.201, Top 5_acc: 0.760
+----------------------------------------
+epoch: 3, avg_loss: 1.945, Top 1_acc: 0.216, Top 5_acc: 0.760
+Average 0.2 s/epoch | Spend: 0 h 0 mins 0.7s
+Best: epoch_3, loss_1.945, Top 1_acc: 0.216, Top 5_acc: 0.760
+----------------------------------------
+epoch: 4, avg_loss: 1.945, Top 1_acc: 0.232, Top 5_acc: 0.852
+Average 0.2 s/epoch | Spend: 0 h 0 mins 0.9s
+Best: epoch_4, loss_1.945, Top 1_acc: 0.232, Top 5_acc: 0.852
+----------------------------------------
+epoch: 5, avg_loss: 1.943, Top 1_acc: 0.323, Top 5_acc: 0.867
+Average 0.2 s/epoch | Spend: 0 h 0 mins 1.1s
+Best: epoch_5, loss_1.943, Top 1_acc: 0.323, Top 5_acc: 0.867
+----------------------------------------
+epoch: 6, avg_loss: 1.942, Top 1_acc: 0.339, Top 5_acc: 0.891
+Average 0.2 s/epoch | Spend: 0 h 0 mins 1.3s
+Best: epoch_6, loss_1.942, Top 1_acc: 0.339, Top 5_acc: 0.891
+----------------------------------------
+epoch: 7, avg_loss: 1.942, Top 1_acc: 0.346, Top 5_acc: 0.891
+Average 0.2 s/epoch | Spend: 0 h 0 mins 1.4s
+Best: epoch_7, loss_1.942, Top 1_acc: 0.346, Top 5_acc: 0.891
+----------------------------------------
+epoch: 8, avg_loss: 1.940, Top 1_acc: 0.370, Top 5_acc: 0.914
+Average 0.2 s/epoch | Spend: 0 h 0 mins 1.6s
+Best: epoch_8, loss_1.940, Top 1_acc: 0.370, Top 5_acc: 0.914
+----------------------------------------
+epoch: 9, avg_loss: 1.940, Top 1_acc: 0.378, Top 5_acc: 0.914
+Average 0.2 s/epoch | Spend: 0 h 0 mins 1.8s
+Best: epoch_9, loss_1.940, Top 1_acc: 0.378, Top 5_acc: 0.914
+----------------------------------------
+epoch: 10, avg_loss: 1.939, Top 1_acc: 0.378, Top 5_acc: 0.930
+Average 0.2 s/epoch | Spend: 0 h 0 mins 2.0s
+Best: epoch_10, loss_1.939, Top 1_acc: 0.378, Top 5_acc: 0.930
+----------------------------------------
+epoch: 11, avg_loss: 1.938, Top 1_acc: 0.393, Top 5_acc: 0.938
+Average 0.2 s/epoch | Spend: 0 h 0 mins 2.2s
+Best: epoch_11, loss_1.938, Top 1_acc: 0.393, Top 5_acc: 0.938
+----------------------------------------
+epoch: 12, avg_loss: 1.937, Top 1_acc: 0.401, Top 5_acc: 0.945
+Average 0.2 s/epoch | Spend: 0 h 0 mins 2.4s
+Best: epoch_12, loss_1.937, Top 1_acc: 0.401, Top 5_acc: 0.945
+----------------------------------------
+epoch: 13, avg_loss: 1.935, Top 1_acc: 0.401, Top 5_acc: 0.953
+Average 0.2 s/epoch | Spend: 0 h 0 mins 2.5s
+Best: epoch_13, loss_1.935, Top 1_acc: 0.401, Top 5_acc: 0.953
+----------------------------------------
+epoch: 14, avg_loss: 1.933, Top 1_acc: 0.393, Top 5_acc: 0.977
+Average 0.2 s/epoch | Spend: 0 h 0 mins 2.7s
+Best: epoch_13, loss_1.935, Top 1_acc: 0.401, Top 5_acc: 0.953
+----------------------------------------
+epoch: 15, avg_loss: 1.932, Top 1_acc: 0.409, Top 5_acc: 0.984
+Average 0.2 s/epoch | Spend: 0 h 0 mins 2.9s
+Best: epoch_15, loss_1.932, Top 1_acc: 0.409, Top 5_acc: 0.984
+----------------------------------------
+epoch: 16, avg_loss: 1.931, Top 1_acc: 0.432, Top 5_acc: 0.984
+Average 0.2 s/epoch | Spend: 0 h 0 mins 3.1s
+Best: epoch_16, loss_1.931, Top 1_acc: 0.432, Top 5_acc: 0.984
+----------------------------------------
+epoch: 17, avg_loss: 1.928, Top 1_acc: 0.432, Top 5_acc: 0.984
+Average 0.2 s/epoch | Spend: 0 h 0 mins 3.3s
+Best: epoch_17, loss_1.928, Top 1_acc: 0.432, Top 5_acc: 0.984
+----------------------------------------
+epoch: 18, avg_loss: 1.927, Top 1_acc: 0.432, Top 5_acc: 0.984
+Average 0.2 s/epoch | Spend: 0 h 0 mins 3.5s
+Best: epoch_18, loss_1.927, Top 1_acc: 0.432, Top 5_acc: 0.984
+----------------------------------------
+epoch: 19, avg_loss: 1.924, Top 1_acc: 0.516, Top 5_acc: 0.984
+Average 0.2 s/epoch | Spend: 0 h 0 mins 3.6s
+Best: epoch_19, loss_1.924, Top 1_acc: 0.516, Top 5_acc: 0.984
+----------------------------------------
+epoch: 20, avg_loss: 1.924, Top 1_acc: 0.516, Top 5_acc: 0.984
+Average 0.2 s/epoch | Spend: 0 h 0 mins 3.8s
+Best: epoch_20, loss_1.924, Top 1_acc: 0.516, Top 5_acc: 0.984
+----------------------------------------
+epoch: 21, avg_loss: 1.920, Top 1_acc: 0.523, Top 5_acc: 0.984
+Average 0.2 s/epoch | Spend: 0 h 0 mins 4.0s
+Best: epoch_21, loss_1.920, Top 1_acc: 0.523, Top 5_acc: 0.984
+----------------------------------------
+epoch: 22, avg_loss: 1.916, Top 1_acc: 0.539, Top 5_acc: 0.984
+Average 0.2 s/epoch | Spend: 0 h 0 mins 4.2s
+Best: epoch_22, loss_1.916, Top 1_acc: 0.539, Top 5_acc: 0.984
+----------------------------------------
+epoch: 23, avg_loss: 1.913, Top 1_acc: 0.539, Top 5_acc: 0.984
+Average 0.2 s/epoch | Spend: 0 h 0 mins 4.4s
+Best: epoch_23, loss_1.913, Top 1_acc: 0.539, Top 5_acc: 0.984
+----------------------------------------
+epoch: 24, avg_loss: 1.912, Top 1_acc: 0.630, Top 5_acc: 0.992
+Average 0.2 s/epoch | Spend: 0 h 0 mins 4.5s
+Best: epoch_24, loss_1.912, Top 1_acc: 0.630, Top 5_acc: 0.992
+----------------------------------------
+epoch: 25, avg_loss: 1.908, Top 1_acc: 0.721, Top 5_acc: 0.992
+Average 0.2 s/epoch | Spend: 0 h 0 mins 4.7s
+Best: epoch_25, loss_1.908, Top 1_acc: 0.721, Top 5_acc: 0.992
+----------------------------------------
+epoch: 26, avg_loss: 1.902, Top 1_acc: 0.812, Top 5_acc: 0.992
+Average 0.2 s/epoch | Spend: 0 h 0 mins 4.9s
+Best: epoch_26, loss_1.902, Top 1_acc: 0.812, Top 5_acc: 0.992
+----------------------------------------
+epoch: 27, avg_loss: 1.900, Top 1_acc: 0.828, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 5.1s
+Best: epoch_27, loss_1.900, Top 1_acc: 0.828, Top 5_acc: 1.000
+----------------------------------------
+epoch: 28, avg_loss: 1.897, Top 1_acc: 0.836, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 5.2s
+Best: epoch_28, loss_1.897, Top 1_acc: 0.836, Top 5_acc: 1.000
+----------------------------------------
+epoch: 29, avg_loss: 1.893, Top 1_acc: 0.844, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 5.4s
+Best: epoch_29, loss_1.893, Top 1_acc: 0.844, Top 5_acc: 1.000
+----------------------------------------
+epoch: 30, avg_loss: 1.888, Top 1_acc: 0.859, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 5.6s
+Best: epoch_30, loss_1.888, Top 1_acc: 0.859, Top 5_acc: 1.000
+----------------------------------------
+epoch: 31, avg_loss: 1.884, Top 1_acc: 0.875, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 5.8s
+Best: epoch_31, loss_1.884, Top 1_acc: 0.875, Top 5_acc: 1.000
+----------------------------------------
+epoch: 32, avg_loss: 1.876, Top 1_acc: 0.875, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 6.0s
+Best: epoch_32, loss_1.876, Top 1_acc: 0.875, Top 5_acc: 1.000
+----------------------------------------
+epoch: 33, avg_loss: 1.873, Top 1_acc: 0.875, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 6.2s
+Best: epoch_33, loss_1.873, Top 1_acc: 0.875, Top 5_acc: 1.000
+----------------------------------------
+epoch: 34, avg_loss: 1.865, Top 1_acc: 0.875, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 6.4s
+Best: epoch_34, loss_1.865, Top 1_acc: 0.875, Top 5_acc: 1.000
+----------------------------------------
+epoch: 35, avg_loss: 1.858, Top 1_acc: 0.891, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 6.5s
+Best: epoch_35, loss_1.858, Top 1_acc: 0.891, Top 5_acc: 1.000
+----------------------------------------
+epoch: 36, avg_loss: 1.856, Top 1_acc: 0.898, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 6.7s
+Best: epoch_36, loss_1.856, Top 1_acc: 0.898, Top 5_acc: 1.000
+----------------------------------------
+epoch: 37, avg_loss: 1.844, Top 1_acc: 0.898, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 6.9s
+Best: epoch_37, loss_1.844, Top 1_acc: 0.898, Top 5_acc: 1.000
+----------------------------------------
+epoch: 38, avg_loss: 1.840, Top 1_acc: 0.906, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 7.1s
+Best: epoch_38, loss_1.840, Top 1_acc: 0.906, Top 5_acc: 1.000
+----------------------------------------
+epoch: 39, avg_loss: 1.837, Top 1_acc: 0.922, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 7.3s
+Best: epoch_39, loss_1.837, Top 1_acc: 0.922, Top 5_acc: 1.000
+----------------------------------------
+epoch: 40, avg_loss: 1.826, Top 1_acc: 0.922, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 7.5s
+Best: epoch_40, loss_1.826, Top 1_acc: 0.922, Top 5_acc: 1.000
+----------------------------------------
+epoch: 41, avg_loss: 1.825, Top 1_acc: 0.922, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 7.6s
+Best: epoch_41, loss_1.825, Top 1_acc: 0.922, Top 5_acc: 1.000
+----------------------------------------
+epoch: 42, avg_loss: 1.815, Top 1_acc: 0.922, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 7.8s
+Best: epoch_42, loss_1.815, Top 1_acc: 0.922, Top 5_acc: 1.000
+----------------------------------------
+epoch: 43, avg_loss: 1.804, Top 1_acc: 0.922, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 8.0s
+Best: epoch_43, loss_1.804, Top 1_acc: 0.922, Top 5_acc: 1.000
+----------------------------------------
+epoch: 44, avg_loss: 1.801, Top 1_acc: 0.922, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 8.2s
+Best: epoch_44, loss_1.801, Top 1_acc: 0.922, Top 5_acc: 1.000
+----------------------------------------
+epoch: 45, avg_loss: 1.784, Top 1_acc: 0.930, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 8.4s
+Best: epoch_45, loss_1.784, Top 1_acc: 0.930, Top 5_acc: 1.000
+----------------------------------------
+epoch: 46, avg_loss: 1.783, Top 1_acc: 0.930, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 8.6s
+Best: epoch_46, loss_1.783, Top 1_acc: 0.930, Top 5_acc: 1.000
+----------------------------------------
+epoch: 47, avg_loss: 1.773, Top 1_acc: 0.930, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 8.7s
+Best: epoch_47, loss_1.773, Top 1_acc: 0.930, Top 5_acc: 1.000
+----------------------------------------
+epoch: 48, avg_loss: 1.762, Top 1_acc: 0.930, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 9.0s
+Best: epoch_48, loss_1.762, Top 1_acc: 0.930, Top 5_acc: 1.000
+----------------------------------------
+epoch: 49, avg_loss: 1.756, Top 1_acc: 0.930, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 9.1s
+Best: epoch_49, loss_1.756, Top 1_acc: 0.930, Top 5_acc: 1.000
+----------------------------------------
+epoch: 50, avg_loss: 1.748, Top 1_acc: 0.930, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 9.3s
+Best: epoch_50, loss_1.748, Top 1_acc: 0.930, Top 5_acc: 1.000
+----------------------------------------
+epoch: 51, avg_loss: 1.731, Top 1_acc: 0.930, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 9.5s
+Best: epoch_51, loss_1.731, Top 1_acc: 0.930, Top 5_acc: 1.000
+----------------------------------------
+epoch: 52, avg_loss: 1.715, Top 1_acc: 0.930, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 9.7s
+Best: epoch_52, loss_1.715, Top 1_acc: 0.930, Top 5_acc: 1.000
+----------------------------------------
+epoch: 53, avg_loss: 1.710, Top 1_acc: 0.930, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 9.9s
+Best: epoch_53, loss_1.710, Top 1_acc: 0.930, Top 5_acc: 1.000
+----------------------------------------
+epoch: 54, avg_loss: 1.715, Top 1_acc: 0.930, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 10.0s
+Best: epoch_54, loss_1.715, Top 1_acc: 0.930, Top 5_acc: 1.000
+----------------------------------------
+epoch: 55, avg_loss: 1.694, Top 1_acc: 0.938, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 10.2s
+Best: epoch_55, loss_1.694, Top 1_acc: 0.938, Top 5_acc: 1.000
+----------------------------------------
+epoch: 56, avg_loss: 1.681, Top 1_acc: 0.938, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 10.4s
+Best: epoch_56, loss_1.681, Top 1_acc: 0.938, Top 5_acc: 1.000
+----------------------------------------
+epoch: 57, avg_loss: 1.682, Top 1_acc: 0.938, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 10.6s
+Best: epoch_57, loss_1.682, Top 1_acc: 0.938, Top 5_acc: 1.000
+----------------------------------------
+epoch: 58, avg_loss: 1.652, Top 1_acc: 0.938, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 10.8s
+Best: epoch_58, loss_1.652, Top 1_acc: 0.938, Top 5_acc: 1.000
+----------------------------------------
+epoch: 59, avg_loss: 1.652, Top 1_acc: 0.938, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 11.0s
+Best: epoch_59, loss_1.652, Top 1_acc: 0.938, Top 5_acc: 1.000
+----------------------------------------
+epoch: 60, avg_loss: 1.653, Top 1_acc: 0.938, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 11.2s
+Best: epoch_60, loss_1.653, Top 1_acc: 0.938, Top 5_acc: 1.000
+----------------------------------------
+epoch: 61, avg_loss: 1.636, Top 1_acc: 0.938, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 11.3s
+Best: epoch_61, loss_1.636, Top 1_acc: 0.938, Top 5_acc: 1.000
+----------------------------------------
+epoch: 62, avg_loss: 1.623, Top 1_acc: 0.938, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 11.5s
+Best: epoch_62, loss_1.623, Top 1_acc: 0.938, Top 5_acc: 1.000
+----------------------------------------
+epoch: 63, avg_loss: 1.615, Top 1_acc: 0.938, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 11.7s
+Best: epoch_63, loss_1.615, Top 1_acc: 0.938, Top 5_acc: 1.000
+----------------------------------------
+epoch: 64, avg_loss: 1.594, Top 1_acc: 0.945, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 11.9s
+Best: epoch_64, loss_1.594, Top 1_acc: 0.945, Top 5_acc: 1.000
+----------------------------------------
+epoch: 65, avg_loss: 1.587, Top 1_acc: 0.945, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 12.1s
+Best: epoch_65, loss_1.587, Top 1_acc: 0.945, Top 5_acc: 1.000
+----------------------------------------
+epoch: 66, avg_loss: 1.569, Top 1_acc: 0.945, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 12.3s
+Best: epoch_66, loss_1.569, Top 1_acc: 0.945, Top 5_acc: 1.000
+----------------------------------------
+epoch: 67, avg_loss: 1.561, Top 1_acc: 0.945, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 12.5s
+Best: epoch_67, loss_1.561, Top 1_acc: 0.945, Top 5_acc: 1.000
+----------------------------------------
+epoch: 68, avg_loss: 1.547, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 12.7s
+Best: epoch_68, loss_1.547, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 69, avg_loss: 1.516, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 12.8s
+Best: epoch_69, loss_1.516, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 70, avg_loss: 1.523, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 13.0s
+Best: epoch_70, loss_1.523, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 71, avg_loss: 1.500, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 13.2s
+Best: epoch_71, loss_1.500, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 72, avg_loss: 1.508, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 13.4s
+Best: epoch_72, loss_1.508, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 73, avg_loss: 1.481, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 13.6s
+Best: epoch_73, loss_1.481, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 74, avg_loss: 1.476, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 13.8s
+Best: epoch_74, loss_1.476, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 75, avg_loss: 1.443, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 13.9s
+Best: epoch_75, loss_1.443, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 76, avg_loss: 1.449, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 14.1s
+Best: epoch_76, loss_1.449, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 77, avg_loss: 1.450, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 14.3s
+Best: epoch_77, loss_1.450, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 78, avg_loss: 1.414, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 14.5s
+Best: epoch_78, loss_1.414, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 79, avg_loss: 1.422, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 14.7s
+Best: epoch_79, loss_1.422, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 80, avg_loss: 1.391, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 14.9s
+Best: epoch_80, loss_1.391, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 81, avg_loss: 1.380, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 15.1s
+Best: epoch_81, loss_1.380, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 82, avg_loss: 1.361, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 15.3s
+Best: epoch_82, loss_1.361, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 83, avg_loss: 1.353, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 15.5s
+Best: epoch_83, loss_1.353, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 84, avg_loss: 1.347, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 15.7s
+Best: epoch_84, loss_1.347, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 85, avg_loss: 1.323, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 15.9s
+Best: epoch_85, loss_1.323, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 86, avg_loss: 1.310, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 16.0s
+Best: epoch_86, loss_1.310, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 87, avg_loss: 1.316, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 16.2s
+Best: epoch_87, loss_1.316, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 88, avg_loss: 1.329, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 16.4s
+Best: epoch_88, loss_1.329, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 89, avg_loss: 1.290, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 16.6s
+Best: epoch_89, loss_1.290, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 90, avg_loss: 1.277, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 16.8s
+Best: epoch_90, loss_1.277, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 91, avg_loss: 1.258, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 17.0s
+Best: epoch_91, loss_1.258, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 92, avg_loss: 1.237, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 17.2s
+Best: epoch_92, loss_1.237, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 93, avg_loss: 1.241, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 17.3s
+Best: epoch_93, loss_1.241, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 94, avg_loss: 1.228, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 17.5s
+Best: epoch_94, loss_1.228, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 95, avg_loss: 1.195, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 17.7s
+Best: epoch_95, loss_1.195, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 96, avg_loss: 1.212, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 17.9s
+Best: epoch_96, loss_1.212, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 97, avg_loss: 1.210, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 18.1s
+Best: epoch_97, loss_1.210, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 98, avg_loss: 1.181, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 18.3s
+Best: epoch_98, loss_1.181, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 99, avg_loss: 1.128, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 18.5s
+Best: epoch_99, loss_1.128, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 100, avg_loss: 1.149, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 18.7s
+Best: epoch_100, loss_1.149, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 101, avg_loss: 1.168, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 18.9s
+Best: epoch_101, loss_1.168, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 102, avg_loss: 1.122, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 19.1s
+Best: epoch_102, loss_1.122, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 103, avg_loss: 1.100, Top 1_acc: 0.953, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 19.3s
+Best: epoch_103, loss_1.100, Top 1_acc: 0.953, Top 5_acc: 1.000
+----------------------------------------
+epoch: 104, avg_loss: 1.102, Top 1_acc: 0.961, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 19.4s
+Best: epoch_104, loss_1.102, Top 1_acc: 0.961, Top 5_acc: 1.000
+----------------------------------------
+epoch: 105, avg_loss: 1.116, Top 1_acc: 0.969, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 19.6s
+Best: epoch_105, loss_1.116, Top 1_acc: 0.969, Top 5_acc: 1.000
+----------------------------------------
+epoch: 106, avg_loss: 1.067, Top 1_acc: 0.969, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 19.8s
+Best: epoch_106, loss_1.067, Top 1_acc: 0.969, Top 5_acc: 1.000
+----------------------------------------
+epoch: 107, avg_loss: 1.082, Top 1_acc: 0.969, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 20.0s
+Best: epoch_107, loss_1.082, Top 1_acc: 0.969, Top 5_acc: 1.000
+----------------------------------------
+epoch: 108, avg_loss: 1.033, Top 1_acc: 0.969, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 20.2s
+Best: epoch_108, loss_1.033, Top 1_acc: 0.969, Top 5_acc: 1.000
+----------------------------------------
+epoch: 109, avg_loss: 1.010, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 20.4s
+Best: epoch_109, loss_1.010, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 110, avg_loss: 1.014, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 20.6s
+Best: epoch_110, loss_1.014, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 111, avg_loss: 1.015, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 20.8s
+Best: epoch_111, loss_1.015, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 112, avg_loss: 1.004, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 21.0s
+Best: epoch_112, loss_1.004, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 113, avg_loss: 0.999, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 21.2s
+Best: epoch_113, loss_0.999, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 114, avg_loss: 1.014, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 21.4s
+Best: epoch_114, loss_1.014, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 115, avg_loss: 1.016, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 21.5s
+Best: epoch_115, loss_1.016, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 116, avg_loss: 0.973, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 21.7s
+Best: epoch_116, loss_0.973, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 117, avg_loss: 0.953, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 21.9s
+Best: epoch_117, loss_0.953, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 118, avg_loss: 0.957, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 22.1s
+Best: epoch_118, loss_0.957, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 119, avg_loss: 0.969, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 22.3s
+Best: epoch_119, loss_0.969, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 120, avg_loss: 0.925, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 22.5s
+Best: epoch_120, loss_0.925, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 121, avg_loss: 0.917, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 22.7s
+Best: epoch_121, loss_0.917, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 122, avg_loss: 0.930, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 22.9s
+Best: epoch_122, loss_0.930, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 123, avg_loss: 0.924, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 23.0s
+Best: epoch_123, loss_0.924, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 124, avg_loss: 0.897, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 23.2s
+Best: epoch_124, loss_0.897, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 125, avg_loss: 0.878, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 23.4s
+Best: epoch_125, loss_0.878, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 126, avg_loss: 0.903, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 23.6s
+Best: epoch_126, loss_0.903, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 127, avg_loss: 0.877, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 23.8s
+Best: epoch_127, loss_0.877, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 128, avg_loss: 0.847, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 24.0s
+Best: epoch_128, loss_0.847, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 129, avg_loss: 0.826, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 24.2s
+Best: epoch_129, loss_0.826, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 130, avg_loss: 0.876, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 24.3s
+Best: epoch_130, loss_0.876, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 131, avg_loss: 0.835, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 24.5s
+Best: epoch_131, loss_0.835, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 132, avg_loss: 0.829, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 24.7s
+Best: epoch_132, loss_0.829, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 133, avg_loss: 0.809, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 24.9s
+Best: epoch_133, loss_0.809, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 134, avg_loss: 0.788, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 25.1s
+Best: epoch_134, loss_0.788, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 135, avg_loss: 0.803, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 25.2s
+Best: epoch_135, loss_0.803, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 136, avg_loss: 0.789, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 25.4s
+Best: epoch_136, loss_0.789, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 137, avg_loss: 0.736, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 25.6s
+Best: epoch_137, loss_0.736, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 138, avg_loss: 0.768, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 25.8s
+Best: epoch_138, loss_0.768, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 139, avg_loss: 0.754, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 26.0s
+Best: epoch_139, loss_0.754, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 140, avg_loss: 0.705, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 26.2s
+Best: epoch_140, loss_0.705, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 141, avg_loss: 0.744, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 26.3s
+Best: epoch_141, loss_0.744, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 142, avg_loss: 0.726, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 26.5s
+Best: epoch_142, loss_0.726, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 143, avg_loss: 0.707, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 26.7s
+Best: epoch_143, loss_0.707, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 144, avg_loss: 0.719, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 26.9s
+Best: epoch_144, loss_0.719, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 145, avg_loss: 0.748, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 27.1s
+Best: epoch_145, loss_0.748, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 146, avg_loss: 0.706, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 27.3s
+Best: epoch_146, loss_0.706, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 147, avg_loss: 0.692, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 27.5s
+Best: epoch_147, loss_0.692, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 148, avg_loss: 0.671, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 27.6s
+Best: epoch_148, loss_0.671, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 149, avg_loss: 0.718, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 27.8s
+Best: epoch_149, loss_0.718, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 150, avg_loss: 0.659, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 28.0s
+Best: epoch_150, loss_0.659, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 151, avg_loss: 0.670, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 28.2s
+Best: epoch_151, loss_0.670, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 152, avg_loss: 0.664, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 28.4s
+Best: epoch_152, loss_0.664, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 153, avg_loss: 0.695, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 28.5s
+Best: epoch_153, loss_0.695, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 154, avg_loss: 0.627, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 28.7s
+Best: epoch_154, loss_0.627, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 155, avg_loss: 0.647, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 28.9s
+Best: epoch_155, loss_0.647, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 156, avg_loss: 0.640, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 29.1s
+Best: epoch_156, loss_0.640, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 157, avg_loss: 0.663, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 29.3s
+Best: epoch_157, loss_0.663, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 158, avg_loss: 0.624, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 29.5s
+Best: epoch_158, loss_0.624, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 159, avg_loss: 0.613, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 29.6s
+Best: epoch_159, loss_0.613, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 160, avg_loss: 0.658, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 29.8s
+Best: epoch_160, loss_0.658, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 161, avg_loss: 0.584, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 30.0s
+Best: epoch_161, loss_0.584, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 162, avg_loss: 0.578, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 30.2s
+Best: epoch_162, loss_0.578, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 163, avg_loss: 0.576, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 30.4s
+Best: epoch_163, loss_0.576, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 164, avg_loss: 0.601, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 30.6s
+Best: epoch_164, loss_0.601, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 165, avg_loss: 0.548, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 30.8s
+Best: epoch_165, loss_0.548, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 166, avg_loss: 0.573, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 30.9s
+Best: epoch_166, loss_0.573, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 167, avg_loss: 0.546, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 31.1s
+Best: epoch_167, loss_0.546, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 168, avg_loss: 0.550, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 31.3s
+Best: epoch_168, loss_0.550, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 169, avg_loss: 0.577, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 31.5s
+Best: epoch_169, loss_0.577, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 170, avg_loss: 0.525, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 31.7s
+Best: epoch_170, loss_0.525, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 171, avg_loss: 0.514, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 31.9s
+Best: epoch_171, loss_0.514, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 172, avg_loss: 0.543, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 32.0s
+Best: epoch_172, loss_0.543, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 173, avg_loss: 0.537, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 32.2s
+Best: epoch_173, loss_0.537, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 174, avg_loss: 0.541, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 32.4s
+Best: epoch_174, loss_0.541, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 175, avg_loss: 0.507, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 32.6s
+Best: epoch_175, loss_0.507, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 176, avg_loss: 0.503, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 32.8s
+Best: epoch_176, loss_0.503, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 177, avg_loss: 0.532, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 33.0s
+Best: epoch_177, loss_0.532, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 178, avg_loss: 0.512, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 33.2s
+Best: epoch_178, loss_0.512, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 179, avg_loss: 0.535, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 33.4s
+Best: epoch_179, loss_0.535, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 180, avg_loss: 0.520, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 33.5s
+Best: epoch_180, loss_0.520, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 181, avg_loss: 0.506, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 33.7s
+Best: epoch_181, loss_0.506, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 182, avg_loss: 0.476, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 33.9s
+Best: epoch_182, loss_0.476, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 183, avg_loss: 0.507, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 34.1s
+Best: epoch_183, loss_0.507, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 184, avg_loss: 0.495, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 34.3s
+Best: epoch_184, loss_0.495, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 185, avg_loss: 0.472, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 34.4s
+Best: epoch_185, loss_0.472, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 186, avg_loss: 0.509, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 34.6s
+Best: epoch_186, loss_0.509, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 187, avg_loss: 0.461, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 34.8s
+Best: epoch_187, loss_0.461, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 188, avg_loss: 0.439, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 35.0s
+Best: epoch_188, loss_0.439, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 189, avg_loss: 0.486, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 35.2s
+Best: epoch_189, loss_0.486, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 190, avg_loss: 0.435, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 35.3s
+Best: epoch_190, loss_0.435, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 191, avg_loss: 0.473, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 35.5s
+Best: epoch_191, loss_0.473, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 192, avg_loss: 0.467, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 35.7s
+Best: epoch_192, loss_0.467, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 193, avg_loss: 0.420, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 35.9s
+Best: epoch_193, loss_0.420, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 194, avg_loss: 0.466, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 36.1s
+Best: epoch_194, loss_0.466, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 195, avg_loss: 0.461, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 36.3s
+Best: epoch_195, loss_0.461, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 196, avg_loss: 0.447, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 36.5s
+Best: epoch_196, loss_0.447, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 197, avg_loss: 0.441, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 36.7s
+Best: epoch_197, loss_0.441, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 198, avg_loss: 0.436, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 36.8s
+Best: epoch_198, loss_0.436, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 199, avg_loss: 0.403, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 37.0s
+Best: epoch_199, loss_0.403, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 200, avg_loss: 0.407, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 37.2s
+Best: epoch_200, loss_0.407, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 201, avg_loss: 0.458, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 37.4s
+Best: epoch_201, loss_0.458, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 202, avg_loss: 0.414, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 37.6s
+Best: epoch_202, loss_0.414, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 203, avg_loss: 0.435, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 37.7s
+Best: epoch_203, loss_0.435, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 204, avg_loss: 0.403, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 37.9s
+Best: epoch_204, loss_0.403, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 205, avg_loss: 0.421, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 38.1s
+Best: epoch_205, loss_0.421, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 206, avg_loss: 0.391, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 38.3s
+Best: epoch_206, loss_0.391, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 207, avg_loss: 0.400, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 38.5s
+Best: epoch_207, loss_0.400, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 208, avg_loss: 0.414, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 38.8s
+Best: epoch_208, loss_0.414, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 209, avg_loss: 0.391, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 39.0s
+Best: epoch_209, loss_0.391, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 210, avg_loss: 0.376, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 39.2s
+Best: epoch_210, loss_0.376, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 211, avg_loss: 0.385, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 39.4s
+Best: epoch_211, loss_0.385, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 212, avg_loss: 0.368, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 39.6s
+Best: epoch_212, loss_0.368, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 213, avg_loss: 0.376, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 39.8s
+Best: epoch_213, loss_0.376, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 214, avg_loss: 0.371, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 40.0s
+Best: epoch_214, loss_0.371, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 215, avg_loss: 0.340, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 40.2s
+Best: epoch_215, loss_0.340, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 216, avg_loss: 0.385, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 40.3s
+Best: epoch_216, loss_0.385, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 217, avg_loss: 0.378, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 40.5s
+Best: epoch_217, loss_0.378, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 218, avg_loss: 0.389, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 40.7s
+Best: epoch_218, loss_0.389, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 219, avg_loss: 0.363, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 40.9s
+Best: epoch_219, loss_0.363, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 220, avg_loss: 0.351, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 41.1s
+Best: epoch_220, loss_0.351, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 221, avg_loss: 0.367, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 41.3s
+Best: epoch_221, loss_0.367, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 222, avg_loss: 0.347, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 41.5s
+Best: epoch_222, loss_0.347, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 223, avg_loss: 0.380, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 41.6s
+Best: epoch_223, loss_0.380, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 224, avg_loss: 0.314, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 41.8s
+Best: epoch_224, loss_0.314, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 225, avg_loss: 0.339, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 42.0s
+Best: epoch_225, loss_0.339, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 226, avg_loss: 0.344, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 42.2s
+Best: epoch_226, loss_0.344, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 227, avg_loss: 0.317, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 42.4s
+Best: epoch_227, loss_0.317, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 228, avg_loss: 0.360, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 42.6s
+Best: epoch_228, loss_0.360, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 229, avg_loss: 0.333, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 42.8s
+Best: epoch_229, loss_0.333, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 230, avg_loss: 0.313, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 43.0s
+Best: epoch_230, loss_0.313, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 231, avg_loss: 0.304, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 43.2s
+Best: epoch_231, loss_0.304, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 232, avg_loss: 0.303, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 43.3s
+Best: epoch_232, loss_0.303, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 233, avg_loss: 0.304, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 43.5s
+Best: epoch_233, loss_0.304, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 234, avg_loss: 0.306, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 43.7s
+Best: epoch_234, loss_0.306, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 235, avg_loss: 0.336, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 43.9s
+Best: epoch_235, loss_0.336, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 236, avg_loss: 0.336, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 44.1s
+Best: epoch_236, loss_0.336, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 237, avg_loss: 0.350, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 44.3s
+Best: epoch_237, loss_0.350, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 238, avg_loss: 0.300, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 44.4s
+Best: epoch_238, loss_0.300, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 239, avg_loss: 0.331, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 44.6s
+Best: epoch_239, loss_0.331, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 240, avg_loss: 0.278, Top 1_acc: 0.977, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 44.8s
+Best: epoch_240, loss_0.278, Top 1_acc: 0.977, Top 5_acc: 1.000
+----------------------------------------
+epoch: 241, avg_loss: 0.312, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 45.1s
+Best: epoch_241, loss_0.312, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 242, avg_loss: 0.341, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 45.3s
+Best: epoch_242, loss_0.341, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 243, avg_loss: 0.332, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 45.5s
+Best: epoch_243, loss_0.332, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 244, avg_loss: 0.308, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 45.7s
+Best: epoch_244, loss_0.308, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 245, avg_loss: 0.298, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 45.8s
+Best: epoch_245, loss_0.298, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 246, avg_loss: 0.307, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 46.0s
+Best: epoch_246, loss_0.307, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 247, avg_loss: 0.318, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 46.2s
+Best: epoch_247, loss_0.318, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 248, avg_loss: 0.298, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 46.4s
+Best: epoch_248, loss_0.298, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 249, avg_loss: 0.281, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 46.6s
+Best: epoch_249, loss_0.281, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 250, avg_loss: 0.289, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 46.8s
+Best: epoch_250, loss_0.289, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 251, avg_loss: 0.310, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 46.9s
+Best: epoch_251, loss_0.310, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 252, avg_loss: 0.305, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 47.1s
+Best: epoch_252, loss_0.305, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 253, avg_loss: 0.265, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 47.3s
+Best: epoch_253, loss_0.265, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 254, avg_loss: 0.269, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 47.5s
+Best: epoch_254, loss_0.269, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 255, avg_loss: 0.252, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 47.6s
+Best: epoch_255, loss_0.252, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 256, avg_loss: 0.290, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 47.8s
+Best: epoch_256, loss_0.290, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 257, avg_loss: 0.255, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 48.0s
+Best: epoch_257, loss_0.255, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 258, avg_loss: 0.278, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 48.2s
+Best: epoch_258, loss_0.278, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 259, avg_loss: 0.270, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 48.4s
+Best: epoch_259, loss_0.270, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 260, avg_loss: 0.273, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 48.6s
+Best: epoch_260, loss_0.273, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 261, avg_loss: 0.247, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 48.8s
+Best: epoch_261, loss_0.247, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 262, avg_loss: 0.256, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 49.0s
+Best: epoch_262, loss_0.256, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 263, avg_loss: 0.258, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 49.1s
+Best: epoch_263, loss_0.258, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 264, avg_loss: 0.281, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 49.3s
+Best: epoch_264, loss_0.281, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 265, avg_loss: 0.245, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 49.5s
+Best: epoch_265, loss_0.245, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 266, avg_loss: 0.252, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 49.7s
+Best: epoch_266, loss_0.252, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 267, avg_loss: 0.265, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 49.9s
+Best: epoch_267, loss_0.265, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 268, avg_loss: 0.255, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 50.0s
+Best: epoch_268, loss_0.255, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 269, avg_loss: 0.266, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 50.2s
+Best: epoch_269, loss_0.266, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 270, avg_loss: 0.246, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 50.4s
+Best: epoch_270, loss_0.246, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 271, avg_loss: 0.245, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 50.6s
+Best: epoch_271, loss_0.245, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 272, avg_loss: 0.247, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 50.8s
+Best: epoch_272, loss_0.247, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 273, avg_loss: 0.233, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 51.0s
+Best: epoch_273, loss_0.233, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 274, avg_loss: 0.259, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 51.2s
+Best: epoch_274, loss_0.259, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 275, avg_loss: 0.268, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 51.3s
+Best: epoch_275, loss_0.268, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 276, avg_loss: 0.237, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 51.5s
+Best: epoch_276, loss_0.237, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 277, avg_loss: 0.245, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 51.7s
+Best: epoch_277, loss_0.245, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 278, avg_loss: 0.237, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 51.9s
+Best: epoch_278, loss_0.237, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 279, avg_loss: 0.253, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 52.1s
+Best: epoch_279, loss_0.253, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 280, avg_loss: 0.262, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 52.3s
+Best: epoch_280, loss_0.262, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 281, avg_loss: 0.216, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 52.5s
+Best: epoch_281, loss_0.216, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 282, avg_loss: 0.241, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 52.6s
+Best: epoch_282, loss_0.241, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 283, avg_loss: 0.205, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 52.8s
+Best: epoch_283, loss_0.205, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 284, avg_loss: 0.202, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 53.0s
+Best: epoch_284, loss_0.202, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 285, avg_loss: 0.255, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 53.2s
+Best: epoch_285, loss_0.255, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 286, avg_loss: 0.228, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 53.4s
+Best: epoch_286, loss_0.228, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 287, avg_loss: 0.214, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 53.5s
+Best: epoch_287, loss_0.214, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 288, avg_loss: 0.226, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 53.8s
+Best: epoch_288, loss_0.226, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 289, avg_loss: 0.205, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 53.9s
+Best: epoch_289, loss_0.205, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 290, avg_loss: 0.246, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 54.1s
+Best: epoch_290, loss_0.246, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 291, avg_loss: 0.221, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 54.3s
+Best: epoch_291, loss_0.221, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 292, avg_loss: 0.220, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 54.5s
+Best: epoch_292, loss_0.220, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 293, avg_loss: 0.235, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 54.7s
+Best: epoch_293, loss_0.235, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 294, avg_loss: 0.240, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 54.9s
+Best: epoch_294, loss_0.240, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 295, avg_loss: 0.214, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 55.1s
+Best: epoch_295, loss_0.214, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 296, avg_loss: 0.206, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 55.3s
+Best: epoch_296, loss_0.206, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 297, avg_loss: 0.202, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 55.5s
+Best: epoch_297, loss_0.202, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 298, avg_loss: 0.199, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 55.6s
+Best: epoch_298, loss_0.199, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 299, avg_loss: 0.194, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 55.8s
+Best: epoch_299, loss_0.194, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 300, avg_loss: 0.221, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 56.0s
+Best: epoch_300, loss_0.221, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 301, avg_loss: 0.218, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 56.2s
+Best: epoch_301, loss_0.218, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 302, avg_loss: 0.208, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 56.4s
+Best: epoch_302, loss_0.208, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 303, avg_loss: 0.199, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 56.6s
+Best: epoch_303, loss_0.199, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 304, avg_loss: 0.232, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 56.8s
+Best: epoch_304, loss_0.232, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 305, avg_loss: 0.196, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 56.9s
+Best: epoch_305, loss_0.196, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 306, avg_loss: 0.200, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 57.1s
+Best: epoch_306, loss_0.200, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 307, avg_loss: 0.212, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 57.3s
+Best: epoch_307, loss_0.212, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 308, avg_loss: 0.174, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 57.5s
+Best: epoch_308, loss_0.174, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 309, avg_loss: 0.197, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 57.7s
+Best: epoch_309, loss_0.197, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 310, avg_loss: 0.208, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 57.9s
+Best: epoch_310, loss_0.208, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 311, avg_loss: 0.191, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 58.0s
+Best: epoch_311, loss_0.191, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 312, avg_loss: 0.191, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 58.2s
+Best: epoch_312, loss_0.191, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 313, avg_loss: 0.204, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 58.4s
+Best: epoch_313, loss_0.204, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 314, avg_loss: 0.214, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 58.6s
+Best: epoch_314, loss_0.214, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 315, avg_loss: 0.224, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 58.8s
+Best: epoch_315, loss_0.224, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 316, avg_loss: 0.178, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 59.0s
+Best: epoch_316, loss_0.178, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 317, avg_loss: 0.187, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 59.1s
+Best: epoch_317, loss_0.187, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 318, avg_loss: 0.171, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 59.3s
+Best: epoch_318, loss_0.171, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 319, avg_loss: 0.202, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 59.5s
+Best: epoch_319, loss_0.202, Top 1_acc: 0.984, Top 5_acc: 1.000
+----------------------------------------
+epoch: 320, avg_loss: 0.186, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 59.7s
+Best: epoch_320, loss_0.186, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 321, avg_loss: 0.182, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 0 mins 59.9s
+Best: epoch_321, loss_0.182, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 322, avg_loss: 0.221, Top 1_acc: 0.984, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 0.1s
+Best: epoch_321, loss_0.182, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 323, avg_loss: 0.203, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 0.3s
+Best: epoch_323, loss_0.203, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 324, avg_loss: 0.204, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 0.4s
+Best: epoch_324, loss_0.204, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 325, avg_loss: 0.183, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 0.6s
+Best: epoch_325, loss_0.183, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 326, avg_loss: 0.193, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 0.8s
+Best: epoch_326, loss_0.193, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 327, avg_loss: 0.164, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 1.0s
+Best: epoch_327, loss_0.164, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 328, avg_loss: 0.183, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 1.2s
+Best: epoch_328, loss_0.183, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 329, avg_loss: 0.170, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 1.3s
+Best: epoch_329, loss_0.170, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 330, avg_loss: 0.185, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 1.5s
+Best: epoch_330, loss_0.185, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 331, avg_loss: 0.160, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 1.7s
+Best: epoch_331, loss_0.160, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 332, avg_loss: 0.176, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 1.9s
+Best: epoch_332, loss_0.176, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 333, avg_loss: 0.180, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 2.0s
+Best: epoch_333, loss_0.180, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 334, avg_loss: 0.172, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 2.2s
+Best: epoch_334, loss_0.172, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 335, avg_loss: 0.150, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 2.4s
+Best: epoch_335, loss_0.150, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 336, avg_loss: 0.173, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 2.6s
+Best: epoch_336, loss_0.173, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 337, avg_loss: 0.174, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 2.8s
+Best: epoch_337, loss_0.174, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 338, avg_loss: 0.175, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 3.0s
+Best: epoch_338, loss_0.175, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 339, avg_loss: 0.176, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 3.2s
+Best: epoch_339, loss_0.176, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 340, avg_loss: 0.181, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 3.4s
+Best: epoch_340, loss_0.181, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 341, avg_loss: 0.180, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 3.5s
+Best: epoch_341, loss_0.180, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 342, avg_loss: 0.168, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 3.7s
+Best: epoch_342, loss_0.168, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 343, avg_loss: 0.178, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 3.9s
+Best: epoch_343, loss_0.178, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 344, avg_loss: 0.181, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 4.1s
+Best: epoch_344, loss_0.181, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 345, avg_loss: 0.187, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 4.3s
+Best: epoch_345, loss_0.187, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 346, avg_loss: 0.177, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 4.4s
+Best: epoch_346, loss_0.177, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 347, avg_loss: 0.177, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 4.6s
+Best: epoch_347, loss_0.177, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 348, avg_loss: 0.181, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 4.8s
+Best: epoch_348, loss_0.181, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 349, avg_loss: 0.165, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 5.0s
+Best: epoch_349, loss_0.165, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 350, avg_loss: 0.155, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 5.2s
+Best: epoch_350, loss_0.155, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 351, avg_loss: 0.161, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 5.3s
+Best: epoch_351, loss_0.161, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 352, avg_loss: 0.160, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 5.5s
+Best: epoch_352, loss_0.160, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 353, avg_loss: 0.137, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 5.7s
+Best: epoch_353, loss_0.137, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 354, avg_loss: 0.174, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 5.9s
+Best: epoch_354, loss_0.174, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 355, avg_loss: 0.181, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 6.1s
+Best: epoch_355, loss_0.181, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 356, avg_loss: 0.159, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 6.3s
+Best: epoch_356, loss_0.159, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 357, avg_loss: 0.142, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 6.5s
+Best: epoch_357, loss_0.142, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 358, avg_loss: 0.154, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 6.6s
+Best: epoch_358, loss_0.154, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 359, avg_loss: 0.149, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 6.8s
+Best: epoch_359, loss_0.149, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 360, avg_loss: 0.189, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 7.0s
+Best: epoch_360, loss_0.189, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 361, avg_loss: 0.149, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 7.2s
+Best: epoch_361, loss_0.149, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 362, avg_loss: 0.167, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 7.4s
+Best: epoch_362, loss_0.167, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 363, avg_loss: 0.160, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 7.5s
+Best: epoch_363, loss_0.160, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 364, avg_loss: 0.156, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 7.7s
+Best: epoch_364, loss_0.156, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 365, avg_loss: 0.154, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 7.9s
+Best: epoch_365, loss_0.154, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 366, avg_loss: 0.162, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 8.1s
+Best: epoch_366, loss_0.162, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 367, avg_loss: 0.159, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 8.3s
+Best: epoch_367, loss_0.159, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 368, avg_loss: 0.157, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 8.5s
+Best: epoch_368, loss_0.157, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 369, avg_loss: 0.163, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 8.7s
+Best: epoch_369, loss_0.163, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 370, avg_loss: 0.159, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 8.9s
+Best: epoch_370, loss_0.159, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 371, avg_loss: 0.159, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 9.0s
+Best: epoch_371, loss_0.159, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 372, avg_loss: 0.143, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 9.2s
+Best: epoch_372, loss_0.143, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 373, avg_loss: 0.131, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 9.4s
+Best: epoch_373, loss_0.131, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 374, avg_loss: 0.177, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 9.6s
+Best: epoch_374, loss_0.177, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 375, avg_loss: 0.135, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 9.8s
+Best: epoch_375, loss_0.135, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 376, avg_loss: 0.149, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 10.0s
+Best: epoch_376, loss_0.149, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 377, avg_loss: 0.126, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 10.1s
+Best: epoch_377, loss_0.126, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 378, avg_loss: 0.144, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 10.3s
+Best: epoch_378, loss_0.144, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 379, avg_loss: 0.154, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 10.5s
+Best: epoch_379, loss_0.154, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 380, avg_loss: 0.151, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 10.7s
+Best: epoch_380, loss_0.151, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 381, avg_loss: 0.169, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 10.9s
+Best: epoch_381, loss_0.169, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 382, avg_loss: 0.140, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 11.0s
+Best: epoch_382, loss_0.140, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 383, avg_loss: 0.146, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 11.2s
+Best: epoch_383, loss_0.146, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 384, avg_loss: 0.167, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 11.4s
+Best: epoch_384, loss_0.167, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 385, avg_loss: 0.142, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 11.6s
+Best: epoch_385, loss_0.142, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 386, avg_loss: 0.135, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 11.8s
+Best: epoch_386, loss_0.135, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 387, avg_loss: 0.140, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 12.0s
+Best: epoch_387, loss_0.140, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 388, avg_loss: 0.117, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 12.2s
+Best: epoch_388, loss_0.117, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 389, avg_loss: 0.148, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 12.4s
+Best: epoch_389, loss_0.148, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 390, avg_loss: 0.136, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 12.6s
+Best: epoch_390, loss_0.136, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 391, avg_loss: 0.122, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 12.7s
+Best: epoch_391, loss_0.122, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 392, avg_loss: 0.127, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 12.9s
+Best: epoch_392, loss_0.127, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 393, avg_loss: 0.142, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 13.1s
+Best: epoch_393, loss_0.142, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 394, avg_loss: 0.133, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 13.3s
+Best: epoch_394, loss_0.133, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 395, avg_loss: 0.151, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 13.5s
+Best: epoch_395, loss_0.151, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 396, avg_loss: 0.120, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 13.7s
+Best: epoch_396, loss_0.120, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 397, avg_loss: 0.148, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 13.9s
+Best: epoch_397, loss_0.148, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 398, avg_loss: 0.126, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 14.0s
+Best: epoch_398, loss_0.126, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 399, avg_loss: 0.138, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 14.2s
+Best: epoch_399, loss_0.138, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 400, avg_loss: 0.125, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 14.4s
+Best: epoch_400, loss_0.125, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 401, avg_loss: 0.139, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 14.6s
+Best: epoch_401, loss_0.139, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 402, avg_loss: 0.110, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 14.8s
+Best: epoch_402, loss_0.110, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 403, avg_loss: 0.124, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 15.0s
+Best: epoch_403, loss_0.124, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 404, avg_loss: 0.132, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 15.2s
+Best: epoch_404, loss_0.132, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 405, avg_loss: 0.137, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 15.3s
+Best: epoch_405, loss_0.137, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 406, avg_loss: 0.137, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 15.5s
+Best: epoch_406, loss_0.137, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 407, avg_loss: 0.124, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 15.7s
+Best: epoch_407, loss_0.124, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 408, avg_loss: 0.119, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 15.9s
+Best: epoch_408, loss_0.119, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 409, avg_loss: 0.145, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 16.1s
+Best: epoch_409, loss_0.145, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 410, avg_loss: 0.134, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 16.2s
+Best: epoch_410, loss_0.134, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 411, avg_loss: 0.118, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 16.4s
+Best: epoch_411, loss_0.118, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 412, avg_loss: 0.123, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 16.6s
+Best: epoch_412, loss_0.123, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 413, avg_loss: 0.128, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 16.8s
+Best: epoch_413, loss_0.128, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 414, avg_loss: 0.126, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 17.0s
+Best: epoch_414, loss_0.126, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 415, avg_loss: 0.136, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 17.2s
+Best: epoch_415, loss_0.136, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 416, avg_loss: 0.115, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 17.3s
+Best: epoch_416, loss_0.115, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 417, avg_loss: 0.135, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 17.5s
+Best: epoch_417, loss_0.135, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 418, avg_loss: 0.126, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 17.7s
+Best: epoch_418, loss_0.126, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 419, avg_loss: 0.116, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 17.9s
+Best: epoch_419, loss_0.116, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 420, avg_loss: 0.115, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 18.1s
+Best: epoch_420, loss_0.115, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 421, avg_loss: 0.132, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 18.3s
+Best: epoch_421, loss_0.132, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 422, avg_loss: 0.127, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 18.4s
+Best: epoch_422, loss_0.127, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 423, avg_loss: 0.138, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 18.6s
+Best: epoch_423, loss_0.138, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 424, avg_loss: 0.150, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 18.8s
+Best: epoch_424, loss_0.150, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 425, avg_loss: 0.109, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 19.0s
+Best: epoch_425, loss_0.109, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 426, avg_loss: 0.110, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 19.2s
+Best: epoch_426, loss_0.110, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 427, avg_loss: 0.122, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 19.4s
+Best: epoch_427, loss_0.122, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 428, avg_loss: 0.113, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 19.5s
+Best: epoch_428, loss_0.113, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 429, avg_loss: 0.110, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 19.7s
+Best: epoch_429, loss_0.110, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 430, avg_loss: 0.110, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 19.9s
+Best: epoch_430, loss_0.110, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 431, avg_loss: 0.129, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 20.1s
+Best: epoch_431, loss_0.129, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 432, avg_loss: 0.122, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 20.3s
+Best: epoch_432, loss_0.122, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 433, avg_loss: 0.114, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 20.5s
+Best: epoch_433, loss_0.114, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 434, avg_loss: 0.098, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 20.7s
+Best: epoch_434, loss_0.098, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 435, avg_loss: 0.105, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 20.8s
+Best: epoch_435, loss_0.105, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 436, avg_loss: 0.111, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 21.0s
+Best: epoch_436, loss_0.111, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 437, avg_loss: 0.109, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 21.2s
+Best: epoch_437, loss_0.109, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 438, avg_loss: 0.095, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 21.4s
+Best: epoch_438, loss_0.095, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 439, avg_loss: 0.117, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 21.6s
+Best: epoch_439, loss_0.117, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 440, avg_loss: 0.117, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 21.8s
+Best: epoch_440, loss_0.117, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 441, avg_loss: 0.111, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 21.9s
+Best: epoch_441, loss_0.111, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 442, avg_loss: 0.115, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 22.1s
+Best: epoch_442, loss_0.115, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 443, avg_loss: 0.099, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 22.3s
+Best: epoch_443, loss_0.099, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 444, avg_loss: 0.116, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 22.5s
+Best: epoch_444, loss_0.116, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 445, avg_loss: 0.094, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 22.7s
+Best: epoch_445, loss_0.094, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 446, avg_loss: 0.124, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 22.8s
+Best: epoch_446, loss_0.124, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 447, avg_loss: 0.115, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 23.0s
+Best: epoch_447, loss_0.115, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 448, avg_loss: 0.096, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 23.2s
+Best: epoch_448, loss_0.096, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 449, avg_loss: 0.107, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 23.4s
+Best: epoch_449, loss_0.107, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
+epoch: 450, avg_loss: 0.108, Top 1_acc: 0.992, Top 5_acc: 1.000
+Average 0.2 s/epoch | Spend: 0 h 1 mins 23.6s
+Best: epoch_450, loss_0.108, Top 1_acc: 0.992, Top 5_acc: 1.000
+----------------------------------------
