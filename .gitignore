@@ -1,3 +1,4 @@
+__pycache__/
 Analyse/COG/*
 Analyse/Confuse_Matrix/*
 Analyse/ROC/*

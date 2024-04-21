@@ -1,0 +1,23 @@
+{
+    "dataset": "Dataset/task1",
+
+    "ddp":0,
+    "device": "cuda:0",
+    "num_workers": 0,
+
+    "vectorizer":"tfidf",
+
+    "model":"logistic",
+    "activate_func":"none",
+
+    "seed":5248,
+    "train_plan":"8:2",
+    "epoch":200,
+    "batch_size": 32,
+
+    "lr":1e-4,
+    "weight_decay":1e-4,
+    "momentum":0.9,
+    "loss_func":"bce",
+    "optimizer":"adam"
+  }
