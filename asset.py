@@ -1,17 +1,21 @@
 import torch.nn as nn
 import torch.optim as optim
 from model import *
-from pretreatment import BOW, TFIDF, NGram
+from pretreatment import *
 
 preprocess_set={
     'bow':BOW,
     'tfidf':TFIDF,
-    'ngram':NGram
+    'ngram':NGram,
+    'glove':GLOVE,
+    'word2vec':WORD2VEC,
+    'fasttext':FASTTEXT
 }
 
 model_set={
     'logistic':Logistic_OVO,
-    'softmax':SoftmaxRegression
+    'softmax':SoftmaxRegression,
+    'rnn':nn.RNN,
     }
 
 activate_set = {

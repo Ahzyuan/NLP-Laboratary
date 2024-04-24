@@ -1,5 +1,8 @@
-import os,re
+import os,re,torch,sys
 import pandas as pd
+import numpy as np
+from torchtext.vocab import GloVe
+from gensim.models import KeyedVectors
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer, WordNetLemmatizer
@@ -17,7 +20,7 @@ def tokenize_text(text):
     return word_tokenize(text)
 
 
-def lemmatize_stem_text(tokens, lemmatize=True, stem=False):
+def lemmatize_stem_text(tokens, lemmatize=True, stem=True):
     lemmatizer = WordNetLemmatizer() if lemmatize else None
     stemmer = PorterStemmer() if stem else None
 
@@ -78,6 +81,67 @@ def NGram(config,
     config.input_dim = X.shape[1]
     return vectorizer, train_val_data, test_data
 
+def GLOVE(config, 
+          train_val_file='train.csv', tese_file='test.csv',
+          data_col="Sentence"):
+    texts, train_val_data, test_data = preprocess(config, train_val_file, tese_file, data_col)
+    
+    print('Loading word embedding model for Glove...',end='')
+    glove = GloVe(name='6B', dim=50)
+    glove_vocab = {word.lower(): vec for word, vec in zip(glove.stoi.keys(), glove.vectors)}
+    print('Done!')
+
+    config.input_dim = glove_vocab.vectors.shape[1]
+
+    def sent2vec(text, embeddings):
+        words = text.split() 
+        vectors = [glove_vocab.get(word.lower(),torch.zeros(embeddings.vectors.shape[1])) for word in words] 
+        res = torch.stack(vectors, dim=0)
+        res = torch.mean(res,dim=0)
+        return res
+        
+    return lambda x: sent2vec(x, glove_vocab), train_val_data, test_data
+
+def WORD2VEC(config, 
+             train_val_file='train.csv', tese_file='test.csv',
+             data_col="Sentence",
+             word2vec_model=os.path.join(sys.path[0],'.vector_cache','word2vec-google-news-300.gz')):
+    texts, train_val_data, test_data = preprocess(config, train_val_file, tese_file, data_col)
+    print('Loading word embedding model for Word2Vec...',end='')
+    word2vec_model = KeyedVectors.load_word2vec_format(word2vec_model, binary=True)
+    print('Done!')
+    
+    config.input_dim = word2vec_model.vector_size
+
+    def sent2vec(text, embeddings):
+        words = text.split() 
+        vectors = [torch.tensor(embeddings[word.lower()]) if word.lower() in embeddings else torch.zeros(embeddings.vectors.shape[1]) for word in words] 
+        res = torch.stack(vectors, dim=0)
+        res = torch.mean(res,dim=0)
+        return res
+        
+    return lambda x: sent2vec(x, word2vec_model), train_val_data, test_data
+
+def FASTTEXT(config, 
+             train_val_file='train.csv', tese_file='test.csv',
+             data_col="Sentence",
+             fasttext_model=os.path.join(sys.path[0],'.vector_cache','wiki-news-300d-1M.vec')):
+    texts, train_val_data, test_data = preprocess(config, train_val_file, tese_file, data_col)
+    print('Loading word embedding model for FastText...',end='')
+    word2vec_model = KeyedVectors.load_word2vec_format(word2vec_model, binary=False)
+    print('Done!')
+    
+    config.input_dim = word2vec_model.vector_size
+
+    def sent2vec(text, embeddings):
+        words = text.split() 
+        vectors = [torch.tensor(embeddings[word.lower()]) if word.lower() in embeddings else torch.zeros(embeddings.vectors.shape[1]) for word in words] 
+        res = torch.stack(vectors, dim=0)
+        res = torch.mean(res,dim=0)
+        return res
+        
+    return lambda x: sent2vec(x, word2vec_model), train_val_data, test_data
+
 if __name__ == '__main__':
     corpus = [
     "play something from 1971 by john bonham.",
@@ -87,8 +151,17 @@ if __name__ == '__main__':
     ]
 
     texts = [preprocess_pipeline(i) for i in corpus]
-    vectorizer = CountVectorizer(ngram_range=(1, 2))
-    X = vectorizer.fit_transform(texts)
-    vector = vectorizer.transform(texts[:1])
-    print(vector.toarray()[0])
+    print(texts)
+    word2vec_model=os.path.join(sys.path[0],'.vector_cache','wiki-news-300d-1M.vec')
+    word2vec_model = KeyedVectors.load_word2vec_format(word2vec_model, binary=False)
+    def sent2vec(text, embeddings):
+        words = text.split() 
+        vectors = [torch.tensor(embeddings[word.lower()]) if word.lower() in embeddings else torch.zeros(embeddings.vectors.shape[1]) for word in words] 
+        res = torch.stack(vectors, dim=0)
+        res = torch.mean(res,dim=0)
+        return res
+
+    vectorizer = lambda x: sent2vec(x, word2vec_model)
+    vector = vectorizer(texts[0])
+    print(vector)
     

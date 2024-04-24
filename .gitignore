@@ -1,4 +1,5 @@
 __pycache__/
+.vector_cache/
 Analyse/COG/*
 Analyse/Confuse_Matrix/*
 Analyse/ROC/*

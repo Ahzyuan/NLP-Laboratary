@@ -9,17 +9,17 @@
 
     "model":"softmax",
     "hidden_units":[100],
-    "dropout_rate":0.8,
+    "dropout_rate":0.9,
     "activate_func":"leaky_relu",
 
     "seed":5563,
     "train_plan":"8:2",
-    "epoch":450,
+    "epoch":800,
     "batch_size": 64,
 
-    "lr":1e-4,
+    "lr":1e-3,
     "weight_decay":1e-4,
     "momentum":0.9,
-    "loss_func":"mse",
+    "loss_func":"ce",
     "optimizer":"adam"
   }

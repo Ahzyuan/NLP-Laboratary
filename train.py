@@ -157,7 +157,7 @@ def train(config, model, dataloader, fold=None, net_idx=None):
             best_acc=top1_acc
             best_acc5=top5_acc
         else:
-            if top1_acc>=best_acc:
+            if top1_acc>best_acc:
                 best_epoch=i
                 best_loss=epoch_loss
                 best_acc=top1_acc

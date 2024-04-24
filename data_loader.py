@@ -19,7 +19,7 @@ class universed_dataset(Dataset):
     def correct_label(self,label):
         if 'logistic' in self.config.model:
             return torch.tensor(label, dtype=torch.float32)
-        elif 'softmax' in self.config.model:
+        else: #if 'softmax' in self.config.model:
             if 'ce' in self.config.loss_func: 
                 return torch.tensor(label, dtype=torch.long)
             else:
@@ -27,7 +27,7 @@ class universed_dataset(Dataset):
 
     def __getitem__(self, idx):
         text = self.data.iloc[idx][self.data_col]
-        bow_vector = self.vectorizer.transform([text]).toarray()[0]
+        bow_vector = self.vectorizer.transform([text]).toarray()[0] if self.config.vectorizer in ('bow','tfidf','ngram') else self.vectorizer(text)
         if self.label_col:
             label = self.data.iloc[idx][self.label_col]
             return torch.tensor(bow_vector, dtype=torch.float32), self.correct_label(label)
