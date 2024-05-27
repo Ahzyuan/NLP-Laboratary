@@ -1,0 +1,40 @@
+{
+    "config_file": "E:\\AIL\\project\\NLP-Laboratary\\Config\\pick_model\\softmax_pattern.json",
+    "record_dir": "E:\\AIL\\project\\NLP-Laboratary\\Results\\pick_model",
+    "dataset": "E:\\AIL\\project\\NLP-Laboratary\\Dataset/task1",
+    "ddp": 0,
+    "device": "cuda:0",
+    "num_workers": 0,
+    "vectorizer": "bow",
+    "model": "softmax",
+    "hidden_units": [
+        100
+    ],
+    "dropout_rate": 0.8,
+    "activate_func": "relu",
+    "seed": 5563,
+    "train_plan": "8:2",
+    "epoch": 250,
+    "batch_size": 64,
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "momentum": 0.9,
+    "loss_func": "ce",
+    "optimizer": "adam",
+    "task": "task1",
+    "input_dim": 6463,
+    "cls_list": [
+        "SearchScreeningEvent",
+        "RateBook",
+        "AddToPlaylist",
+        "BookRestaurant",
+        "SearchCreativeWork",
+        "GetWeather",
+        "PlayMusic"
+    ],
+    "local_rank": 0,
+    "save_dir": "E:\\AIL\\project\\NLP-Laboratary\\Results\\pick_model\\task1-bow-softmax-82-lr(-3)-ce-adam",
+    "weight_save_path": "E:\\AIL\\project\\NLP-Laboratary\\Results\\pick_model\\task1-bow-softmax-82-lr(-3)-ce-adam\\best.pth",
+    "task_train_log_path": "E:\\AIL\\project\\NLP-Laboratary\\Results\\pick_model\\task1-bow-softmax-82-lr(-3)-ce-adam\\train_log.txt",
+    "best_weight_path": "E:\\AIL\\project\\NLP-Laboratary\\Results\\pick_model\\task1-bow-softmax-82-lr(-3)-ce-adam\\best.pth"
+}

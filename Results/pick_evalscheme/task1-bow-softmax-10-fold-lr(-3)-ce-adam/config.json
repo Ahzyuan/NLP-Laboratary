@@ -1,0 +1,40 @@
+{
+    "config_file": "E:\\AIL\\project\\NLP-Laboratary\\Config\\pick_evalscheme\\10fold.json",
+    "record_dir": "E:\\AIL\\project\\NLP-Laboratary\\Results\\pick_evalscheme",
+    "dataset": "E:\\AIL\\project\\NLP-Laboratary\\Dataset/task1",
+    "ddp": 0,
+    "device": "cuda:0",
+    "num_workers": 0,
+    "vectorizer": "bow",
+    "model": "softmax",
+    "hidden_units": [
+        100
+    ],
+    "dropout_rate": 0.8,
+    "activate_func": "relu",
+    "seed": 5608,
+    "train_plan": "10-fold",
+    "epoch": 250,
+    "batch_size": 64,
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "momentum": 0.9,
+    "loss_func": "ce",
+    "optimizer": "adam",
+    "task": "task1",
+    "input_dim": 6463,
+    "cls_list": [
+        "AddToPlaylist",
+        "SearchCreativeWork",
+        "RateBook",
+        "PlayMusic",
+        "SearchScreeningEvent",
+        "GetWeather",
+        "BookRestaurant"
+    ],
+    "local_rank": 0,
+    "save_dir": "E:\\AIL\\project\\NLP-Laboratary\\Results\\pick_evalscheme\\task1-bow-softmax-10-fold-lr(-3)-ce-adam",
+    "weight_save_path": "E:\\AIL\\project\\NLP-Laboratary\\Results\\pick_evalscheme\\task1-bow-softmax-10-fold-lr(-3)-ce-adam\\fold_9\\best.pth",
+    "task_train_log_path": "E:\\AIL\\project\\NLP-Laboratary\\Results\\pick_evalscheme\\task1-bow-softmax-10-fold-lr(-3)-ce-adam\\fold_9\\train_log.txt",
+    "best_weight_path": "E:\\AIL\\project\\NLP-Laboratary\\Results\\pick_evalscheme\\task1-bow-softmax-10-fold-lr(-3)-ce-adam\\(best)fold_2\\best.pth"
+}

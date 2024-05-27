@@ -49,3 +49,7 @@ class SoftmaxRegression(nn.Module):
     def forward(self,x):
         return self.bk(x)
 
+class RNN(nn.Module):
+    def __init__(self,config):
+        super(RNN,self).__init__()
+        self.bk = nn.RNN()

@@ -50,7 +50,7 @@ def test(config):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config_file', type=str, default=f'{sys.path[0]}/Config/softmax_pattern.json')   
+    parser.add_argument('-c','--config_file', type=str, default=f'{sys.path[0]}/Config/softmax_pattern.json')   
     config = parser.parse_args()
     with open(config.config_file, 'r') as f:
         config.__dict__ = json.load(f) 

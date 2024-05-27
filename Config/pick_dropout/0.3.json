@@ -1,0 +1,25 @@
+{
+    "dataset": "Dataset/task1",
+
+    "ddp":0,
+    "device": "cuda:0",
+    "num_workers": 0,
+
+    "vectorizer":"bow",
+
+    "model":"softmax",
+    "hidden_units":[100],
+    "dropout_rate":0.3,
+    "activate_func":"relu",
+
+    "seed":5563,
+    "train_plan":"8:2",
+    "epoch":250,
+    "batch_size": 64,
+
+    "lr":1e-3,
+    "weight_decay":1e-2,
+    "momentum":0.9,
+    "loss_func":"ce",
+    "optimizer":"adam"
+  }

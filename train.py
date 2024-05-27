@@ -49,104 +49,92 @@ def init_model(config):
 
     return model
 
-def init_logger(config,fold=None,net_idx=None):
+def init_logger(config,fold=None):
     dir_name = '-'.join([f'{config.task}',
-                         f'{config.vectorizer}',
+                         f'{config.vectorizer}' if config.vectorizer != 'ngram' else f'{config.n}{config.vectorizer[1:]}',
                          f'{config.model}',
+                         f'{config.train_plan}' if ':' not in config.train_plan else '{}'.format(''.join(config.train_plan.split(':'))),
                          f'lr({int(math.log10(config.lr))})',
+                         f'dout({config.dropout_rate})' if 'dropout_rate' in config else '', 
                          f'{config.loss_func}',
-                         f'{config.optimizer}'])
+                         f'{config.optimizer}',
+                         f'{config.activate_func}'])
     suffix = os.path.join(dir_name,f'fold_{fold}') if fold is not None else dir_name
-    suffix = os.path.join(suffix,'cls_{}-{}'.format(*config.dual_cls_list[net_idx])) if net_idx is not None else suffix
     config.save_dir=os.path.join(config.record_dir,suffix)
     os.makedirs(config.save_dir,exist_ok=True)
 
     config.weight_save_path=os.path.join(config.save_dir, 'best.pth')
     config.task_train_log_path=os.path.join(config.save_dir,'train_log.txt')
 
-def train_wrapper(func):
-    def wrapper(*args, **kwargs):
-        if hasattr(args[2], 'dataloaders'): # logistic_ovo
-            config, model, dataloader, *fold_idx = args
-            dataloaders = dataloader.dataloaders
-            net_best_weight = []
-            fold_idx = fold_idx[0] if fold_idx else None
-            
-            for net_idx,net in enumerate(model.bk): # train each classifier
-                data = dataloaders[net_idx]
-                func(config, net, data, fold_idx, net_idx)
-                net_best_weight.append(config.weight_save_path)
-
-            for net_idx, best_weight_path in enumerate(net_best_weight): # aggregate best model
-                model_dict = model.bk[net_idx].state_dict()
-                saved_dict = torch.load(best_weight_path, map_location=config.device) 
-                model_dict.update(saved_dict)
-                model.bk[net_idx].load_state_dict(model_dict)
-            
-            val_loader = dataloader.origin_val_loader.val_loader
-            acc,top5_acc=cal_acc(config, val_loader, model)
-            print('-'*40)
-            print(f'top1 acc: {acc:.3f}\ntop5 acc: {top5_acc:.3f}\n')
-
-            config.save_dir = os.path.dirname(config.save_dir)
-            config.weight_save_path = os.path.join(config.save_dir,'best.pth')
-            torch.save(model.state_dict(), config.weight_save_path)
-        else:
-            acc = func(*args, **kwargs)
-        return acc
-    return wrapper
-
-@train_wrapper
-def train(config, model, dataloader, fold=None, net_idx=None):
-    '''
-    net_idx: only effect when config.model is 'logistic',use to distinguish different classifiers
-    '''
-    init_logger(config,fold,net_idx)
-
-    writer=SummaryWriter(config.save_dir)
-    
-    criterion = loss_set[config.loss_func.lower()]()
+def init_optim(config, model):
     params = model.module.parameters() if config.ddp else model.parameters()
     try:
         optimizer = optim_set[config.optimizer.lower()](params, 
                                                         lr=config.lr, 
-                                                        weight_decay=config.weight_decay,
-                                                        momentum=config.momentum)
+                                                        weight_decay=config.weight_decay)
     except:
         optimizer = optim_set[config.optimizer.lower()](params, 
                                                         lr=config.lr, 
-                                                        weight_decay=config.weight_decay)
+                                                        weight_decay=config.weight_decay,
+                                                        momentum = config.momentum)
+    
+    if config.model.lower() != 'logistic':
+        return optimizer
+    else:
+        config.model = 'sub_logistic'
+        optimizers = [init_optim(config, net) for net in model.bk]
+        config.model = 'logistic'
+        return optimizers
 
+def train_step(config, model, dataloader, optimizer, criterion):
+    model.train()
+    iters_num=len(dataloader.train_loader)
+    loss_collect=torch.zeros(iters_num)
+    
+    for batch,(datas,labels) in enumerate(dataloader.train_loader):
+        datas,labels = datas.to(config.device), labels.to(config.device)
+        optimizer.zero_grad()
+        logit = model(datas).squeeze(-1)
+        logit = discretize_logit(config,logit,test=False) 
+        loss = criterion(logit,labels)
+        loss.backward()
+        optimizer.step()
+        
+        loss_collect[batch]=loss
+    return loss_collect.mean().item()
+
+def train(config, model, dataloader, fold=None):
+    init_logger(config,fold)
+
+    optimizer = init_optim(config, model)
+    criterion = loss_set[config.loss_func.lower()]()
+    
+    writer=SummaryWriter(config.save_dir)
+    
     print("\033[0;33;40mtraining...\033[0m")
     time_start=time()
     time_collect=torch.zeros(config.epoch)
     for i in range(config.epoch):
         epoch_start_time=time()
-        model.train()
-        iters_num=len(dataloader.train_loader)
-        loss_collect=torch.zeros(iters_num)
         
-        for batch,(datas,labels) in enumerate(dataloader.train_loader):
-            datas,labels = datas.to(config.device), labels.to(config.device)
-            optimizer.zero_grad()
-            logit = model(datas).squeeze(-1)
-            logit = discretize_logit(config,logit,test=False) 
-            loss = criterion(logit,labels)
-            loss.backward()
-            optimizer.step()
-            print("\repoch: {}/{}, iters: {}/{}, loss: {:.3f}".format(
-                str(i+1).zfill(len(str(config.epoch))), 
-                config.epoch, 
-                str(batch+1).zfill(len(str(iters_num))), 
-                iters_num, loss),
-                end='')
-            loss_collect[batch]=loss
-        
-        print()
-        top1_acc,top5_acc=cal_acc(config, dataloader.val_loader, model)
+        if config.model.lower() != 'logistic':
+            epoch_loss=train_step(config, model, dataloader, optimizer, criterion)
+        else:
+            epoch_loss = []
+            dataloaders = dataloader.dataloaders # binary train & val dataloader
+            for net_idx,net in enumerate(model.bk): # train each classifier
+                net_epoch_loss=train_step(config, net, 
+                                          dataloaders[net_idx], optimizer[net_idx], 
+                                          criterion)
+                epoch_loss.append(net_epoch_loss)
+            epoch_loss = sum(epoch_loss)/len(epoch_loss)
+
+        top1_acc,top5_acc=cal_acc(config, 
+                                  dataloader.val_loader if config.model.lower() != 'logistic' else dataloader.origin_val_loader.val_loader, 
+                                  model)
         time_end=time()
         time_collect[i]=time_end-epoch_start_time
-        epoch_loss=loss_collect.mean().item()
+        
         avg_epoch_time=time_collect.sum()/(i+1)
         writer.add_scalar('{}/epoch_loss'.format(config.dataset),epoch_loss,i)
         writer.add_scalar('{}/top1_acc'.format(config.dataset), top1_acc, i)
@@ -157,7 +145,7 @@ def train(config, model, dataloader, fold=None, net_idx=None):
             best_acc=top1_acc
             best_acc5=top5_acc
         else:
-            if top1_acc>best_acc:
+            if top1_acc>=best_acc:
                 best_epoch=i
                 best_loss=epoch_loss
                 best_acc=top1_acc
@@ -181,8 +169,8 @@ def train(config, model, dataloader, fold=None, net_idx=None):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config_file', type=str, default=f'{sys.path[0]}/Config/softmax_pattern.json')   
-    parser.add_argument('--record_dir', type=str, default=f'{sys.path[0]}/Results')
+    parser.add_argument('-c','--config_file', type=str, default=r'E:\AIL\project\NLP-Laboratary\Config\pick_optim\sgd.json')#f'{sys.path[0]}/Config/softmax_pattern.json')   
+    parser.add_argument('-r','--record_dir', type=str, default=r'E:\AIL\project\NLP-Laboratary\Results\pick_optim')#f'{sys.path[0]}/Results')
     config = parser.parse_args()
     
     config = update_config(config)

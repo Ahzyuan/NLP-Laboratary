@@ -80,13 +80,13 @@ def split_data(config,train_val_data):
 def discretize_logit(config, logit, test=True):
     if config.model.startswith('logistic'):
         if config.loss_func != 'bce':
-            logit = torch.sigmoid(logit)
+            logit = 5*torch.sigmoid(logit)
         elif test:
             logit = torch.sigmoid(logit) if logit.dtype != torch.int else logit
 
     elif config.model.startswith('softmax'):
         if config.loss_func != 'ce':
-            logit = torch.softmax(logit,-1)
+            logit = 5*torch.softmax(logit,-1)
         elif test:
             logit = torch.softmax(logit,-1)
     return logit

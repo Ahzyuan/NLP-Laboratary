@@ -1,6 +1,7 @@
 import os,re,torch,sys
 import pandas as pd
 import numpy as np
+from autocorrect import Speller
 from torchtext.vocab import GloVe
 from gensim.models import KeyedVectors
 from nltk.corpus import stopwords
@@ -13,12 +14,25 @@ from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer,Coun
 #nltk.download('wordnet')
 
 def clean_text(text):
-    text = re.sub(r'[^\w\s]', '', text)
+    rules = [
+        {r'\s+': u' '},  # replace consecutive spaces
+        {r'^\s+': u''},  # remove spaces at the beginning
+        {r'[^\w\s]': u''} # remove punctuation
+    ]
+    for rule in rules:
+        for (k, v) in rule.items():
+            regex = re.compile(k)
+            text = regex.sub(v, text)
+    text = text.rstrip()
     return text.lower()
 
 def tokenize_text(text):
     return word_tokenize(text)
 
+
+def spell_correct(tokens):
+    spell = Speller()
+    return [spell(token) for token in tokens]
 
 def lemmatize_stem_text(tokens, lemmatize=True, stem=True):
     lemmatizer = WordNetLemmatizer() if lemmatize else None
@@ -42,7 +56,8 @@ def remove_stopwords(tokens, lang='english'):
 def preprocess_pipeline(text, lang='english'):
     cleaned_text = clean_text(text)
     tokens = tokenize_text(cleaned_text)
-    filtered_tokens = remove_stopwords(tokens, lang)
+    spell_corrected_tokens = spell_correct(tokens)
+    filtered_tokens = remove_stopwords(spell_corrected_tokens, lang)
     lemmatized_stemmed_tokens = lemmatize_stem_text(filtered_tokens)
 
     return ' '.join(lemmatized_stemmed_tokens)
@@ -51,8 +66,8 @@ def preprocess(config, train_val_file, tese_file, data_col):
     train_val_data = pd.read_csv(os.path.join(config.dataset,train_val_file))
     test_data = pd.read_csv(os.path.join(config.dataset,tese_file))
     
-    train_val_data[data_col].apply(preprocess_pipeline)
-    test_data[data_col].apply(preprocess_pipeline)
+    #train_val_data[data_col] = train_val_data[data_col].apply(preprocess_pipeline)
+    #test_data[data_col] = test_data[data_col].apply(preprocess_pipeline)
     texts = pd.concat([train_val_data,test_data])[data_col].tolist() # sentences after lemmatize & stem
     return texts, train_val_data, test_data
 def BOW(config, train_val_file='train.csv', tese_file='test.csv',data_col="Sentence"):
@@ -72,11 +87,10 @@ def TFIDF(config, train_val_file='train.csv', tese_file='test.csv',data_col="Sen
     return vectorizer, train_val_data, test_data
 
 def NGram(config, 
-          train_val_file='train.csv', tese_file='test.csv',data_col="Sentence",
-          min_n=1, max_n=2):
+          train_val_file='train.csv', tese_file='test.csv',data_col="Sentence"):
     texts, train_val_data, test_data = preprocess(config, train_val_file, tese_file, data_col)
 
-    vectorizer = CountVectorizer(ngram_range=(min_n, max_n))
+    vectorizer = CountVectorizer(ngram_range=(config.n, config.n))
     X = vectorizer.fit_transform(texts)
     config.input_dim = X.shape[1]
     return vectorizer, train_val_data, test_data
